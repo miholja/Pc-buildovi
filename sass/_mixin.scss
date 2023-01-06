@@ -1,0 +1,21 @@
+@import 'verb';
+
+@mixin main {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+@mixin srednji-ekran {
+    @media screen and (max-width: 1080p) {
+        @content
+    }
+}
+
+@mixin mali-ekran {
+    @media screen and (max-width: 768px) {
+        @content
+    }
+}
