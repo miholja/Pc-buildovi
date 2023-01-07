@@ -2,11 +2,72 @@
 main.sredina {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+}
+main.sredina div.slika {
+  width: 30%;
+  height: 30%;
 }
 main.sredina div.slika img {
-  width: 30%;
-  height: auto;
+  width: 100%;
+}
+main.sredina .tekst {
+  background-image: url(../slike/v748-toon-111.jpg);
+  background-color: rgb(203, 207, 207);
+  display: inline;
+}
+main.sredina .tekst h1 {
+  font-family: "Eurofighter";
+  width: 100%;
+  padding-top: 1em;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+}
+main.sredina .tekst p {
+  width: 100%;
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  padding-left: 8em;
+  padding-right: 8em;
+  font-size: 1.5em;
+}
+
+section.drugi-deo {
+  padding: 1em;
+  background-color: #858383;
+}
+section.drugi-deo h1 {
+  font-family: "Eurofighter";
+  text-align: center;
+  margin: 1em 2em;
+  font-size: 2em;
+}
+section.drugi-deo p {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1em 2em;
+}
+section.drugi-deo table {
+  margin: 2em auto;
+  width: 60%;
+  border-collapse: collapse;
+}
+section.drugi-deo table td, section.drugi-deo table th {
+  border: 1px #858383 solid;
+  text-align: center;
+  padding: 0.5em 1em;
+}
+section.drugi-deo table .crvena {
+  background-color: rgba(216, 102, 102, 0.904);
+  color: #fff;
+}
+section.drugi-deo table .tamna {
+  background-color: rgba(71, 52, 245, 0.842);
+  color: rgb(255, 255, 255);
+}
+section.drugi-deo table .no-border {
+  border: none;
 }
 
 * {

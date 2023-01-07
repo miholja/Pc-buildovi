@@ -1,0 +1,42 @@
+section.drugi-deo {
+    padding: 1em;
+    background-color: $boja_pozadine;
+    
+    h1 {
+        font-family: $font_logo;
+        text-align: center;
+        margin: 1em 2em;
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 1em 2em;
+    }
+
+    table {
+        margin: 2em auto;
+        width: 60%;
+        border-collapse: collapse;
+
+        td, th {
+            border: 1px $boja_pozadine solid;
+            text-align: center;
+            padding: 0.5em 1em;
+        }
+
+        .crvena {
+            background-color: rgba(216, 102, 102, 0.904);
+            color: #fff;
+        }
+
+        .tamna {
+            background-color: rgba(71, 52, 245, 0.842);
+            color: rgb(255, 255, 255);
+        }
+
+        .no-border {
+            border: none;
+        }
+    }
+}
