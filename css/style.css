@@ -54,7 +54,7 @@ section.drugi-deo table {
   border-collapse: collapse;
 }
 section.drugi-deo table td, section.drugi-deo table th {
-  border: 1px #858383 solid;
+  border: 1px #fff solid;
   text-align: center;
   padding: 0.5em 1em;
 }
@@ -68,6 +68,29 @@ section.drugi-deo table .tamna {
 }
 section.drugi-deo table .no-border {
   border: none;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5em 0 0 5em;
+}
+footer div.foomenu {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+footer div.foomenu ul {
+  display: flex;
+  gap: 1em;
+}
+footer div.foomenu ul li a {
+  list-style: none;
+  text-decoration: none;
+  font-size: larger;
+  color: #fff;
 }
 
 * {

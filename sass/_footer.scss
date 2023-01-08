@@ -1,0 +1,29 @@
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5em 0 0 5em;
+
+    div.foomenu {
+        width: 70%;
+        display: flex;
+        justify-content: flex-start;
+
+        ul {
+            display: flex;
+            gap: 1em;
+            li {
+                
+              a {
+                list-style: none;
+                text-decoration: none;
+                font-size: larger;
+                color: $boja_slova;
+              }
+            }
+        }
+        
+        
+    }
+}
